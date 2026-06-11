@@ -8,7 +8,7 @@ const app = express()
 
 app.use(cors({
     origin: [
-        https://clothstore-a93k.onrender.com,
+        process.env.CORS_ORIGIN,
         process.env.CORS_ORIGIN_2,
     ],
     credentials: true
