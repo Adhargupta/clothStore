@@ -1,0 +1,28 @@
+{
+  "name": "clothstore-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Adhar",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "c": "^1.1.1",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.14",
+    "razorpay": "^2.9.6",
+    "stripe": "^22.1.1",
+    "validator": "^13.15.35"
+  }
+}
