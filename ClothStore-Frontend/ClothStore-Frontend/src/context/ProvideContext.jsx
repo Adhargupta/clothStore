@@ -3,7 +3,7 @@ import userContext from './UserContext'
 import axios from "axios";
 
 function ProvideContext({children}) {
-  const backendURL = https://clothstore-backend-0y9u.onrender.com
+  const backendURL = import.meta.env.VITE_BACKEND_URL
 
   // const [orderItem, setOrderItem] = useState(() => {
   //   const items = localStorage.getItem("orderItem")
