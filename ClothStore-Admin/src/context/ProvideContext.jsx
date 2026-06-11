@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import userContext from "./userContext"
 
-export const backendURL = https://clothstore-backend-0y9u.onrender.com
+export const backendURL = import.meta.env.VITE_BACKEND_URL
 
 function ProvideContext({children}) {
     const navigate = useNavigate()
